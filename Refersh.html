@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="utf-8"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	   <script>
+	     $(document).ready(function() {
+		  setInterval(function() {
+		    cache_clear()
+		  }, 10000);
+		});
+
+		function cache_clear() {
+		  window.location.reload(true);
+		}
+	</script>
+    </head>
+  <body>
+	 <h1>This page will reload after each 10 seconds</h1>
+	<p>Auto reload page and clear cache</p>
+  </body>
+</html>
